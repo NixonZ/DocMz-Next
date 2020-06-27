@@ -240,6 +240,10 @@ class login extends Component {
                     <Link href="/register">
                       <a>Register</a>
                     </Link>
+                    <hr/>
+                    <Link href="loginbyimage">
+                      <a>Click here to login by Face Recognition.</a>
+                    </Link>
                   </div>
                 </Form>
               </div>

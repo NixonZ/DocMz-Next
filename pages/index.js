@@ -49,6 +49,12 @@ const LandingPage = () => {
                 </Link>
                
               </div>
+            <div className="user-icon">
+              <Link href="/loginbyimage">
+                <FontAwesomeIcon icon={faUser} size="1x" />
+              </Link>
+
+            </div>
             </section>
             <section className="info-section-container">
               <div className="info-section-info">

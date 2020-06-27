@@ -13,6 +13,7 @@ const doctorLogin = `${BASE_URL}/doctors/authenticate`
 
 const registerPatient = `${BASE_URL}/patient/register`
 const patientLogin = `${BASE_URL}/patient/authenticate`
+const patientLoginbyImage = `${BASE_URL}/patient/authenticatebyImage`
 const patientCardSave = `${BASE_URL}/stripe/create/card/profile`
 const patientCardStripeCharge = `${BASE_URL}/stripe/charge/card`
 const patientCardTestDetails = `${BASE_URL}/stripe/testcard`
@@ -37,6 +38,7 @@ export default {
 
     registerPatient,
     patientLogin,
+    patientLoginbyImage,
     patientCardSave,
     patientCardStripeCharge,
     patientCardTestDetails,
